@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <div class="body">	  
+	    <input id="num1" class="num"/>                               
+	    <div id="btns" class="btn">                          
+	      <button id="plus" onclick="op='+'">+</button>
+	      <button id="minus" onclick="op='-'">-</button>
+	      <button id="times" onclick="op='*'">x</button>
+	      <button id="division" onclick="op='/'">:</button>
+	    </div>
+	      <input id="num2"/>                                        
+	      <br>
+	    <button onclick="func()">Посчитать</button>                  
+      <div class="results">
+        <p id="result"></p>
+      </div>                                       
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
